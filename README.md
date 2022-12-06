@@ -2,7 +2,7 @@
 
 Hack Cameras
 
-<h3> Mode Of Execution: </h3>
+<h3> USE ME: </h3>
 
 * apt-get install python3
 
@@ -23,7 +23,3 @@ Hack Cameras
 # CAM-HACKERS
 
 <img src="https://github.com/AngelSecurityTeam/Cam-Hackers/blob/master/camfoto2.png">
-
-<h3> Paypal donations: </h3>
-
-* https://www.paypal.com/paypalme/AngelSecTeam
