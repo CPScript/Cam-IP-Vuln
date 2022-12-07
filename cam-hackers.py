@@ -353,6 +353,8 @@ print("""
  ╚═════╝╚═╝  ╚═╝╚═╝     ╚═╝      ╚═╝  ╚═╝╚═╝  ╚═╝ ╚═════╝╚═╝  ╚═╝╚══════╝╚═╝  ╚═╝╚══════╝
 """)
 
+os.system(delet)
+time.sleep(1)
 
 import requests, re , colorama
 colorama.init()
