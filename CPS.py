@@ -95,3 +95,5 @@ print("""
                                                                                                                                                                                
 
 """)
+time.sleep(5)
+call(["python", "Cam-info.py"])
