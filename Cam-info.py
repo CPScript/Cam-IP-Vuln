@@ -24,4 +24,5 @@ print("""
 
 CPScript is nt responsible 4 ur acctions :P
 
-"""")
+""")
+time.sleep(5)
