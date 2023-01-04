@@ -1,5 +1,10 @@
 #!/usr/bin/env python3
 #-*- coding: utf-8 -*-
+from time import sleep
+from os import system
+import socket    
+import requests,re,os
+from subprocess import call
 import requests,re,os
 import time
 import sys
