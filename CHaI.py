@@ -221,14 +221,56 @@ call(["python", "CPS.py"])
 import requests, re , colorama
 colorama.init()
 print("""
-\033[1;31m\033[1;37m $$$$$$\   $$$$$$\  $$\      $$\                     $$\   $$\  $$$$$$\   $$$$$$\  $$\   $$\ $$$$$$$$\ $$$$$$$\  
-$$  __$$\ $$  __$$\ $$$\    $$$ |                    $$ |  $$ |$$  __$$\ $$  __$$\ $$ | $$  |$$  _____|$$  __$$\ 
-$$ /  \__|$$ /  $$ |$$$$\  $$$$ |                    $$ |  $$ |$$ /  $$ |$$ /  \__|$$ |$$  / $$ |      $$ |  $$ |
-$$ |      $$$$$$$$ |$$\$$\$$ $$ |      $$$$$$\       $$$$$$$$ |$$$$$$$$ |$$ |      $$$$$  /  $$$$$\    $$$$$$$  |
-$$ |      $$  __$$ |$$ \$$$  $$ |      \______|      $$  __$$ |$$  __$$ |$$ |      $$  $$<   $$  __|   $$  __$$< 
-$$ |  $$\ $$ |  $$ |$$ |\$  /$$ |                    $$ |  $$ |$$ |  $$ |$$ |  $$\ $$ |\$$\  $$ |      $$ |  $$ |
-\$$$$$$  |$$ |  $$ |$$ | \_/ $$ |                    $$ |  $$ |$$ |  $$ |\$$$$$$  |$$ | \$$\ $$$$$$$$\ $$ |  $$ |
- \______/ \__|  \__|\__|     \__|                    \__|  \__|\__|  \__| \______/ \__|  \__|\________|\__|  \__|
+\033[1;31m\033[1;37m          ,oOXNNNX0d;.     .lOXWMMWN0d;.           
+       'kNMMMMMMMMMWO; .lOXMMMMMMMMMMNx'          
+      ,0MMMMMMMMMMMMMKldNMMMMMMMMMMMMMWk.         
+      oWMMMMMMMMMMMMMMXNMMMMMMMMMMMMMMMN:         
+      oWMMMMMMMMMMMMMWXXMMMMMMMMMMMMMMMX:         
+      '0MMMMMMMMMMMMMKccXMMMMMMMMMMMMMWd.         
+       'xNMMMMMMMMMNO,  ;oONMMMMMMMMWKl.    .:,   
+      ..'lONWMMMMN0o,.....,oOXWMMMN0d:..   .lNNk; 
+xdol,.lXXXXNMMMMMWXXXXXXXXXXXNWMMMWXXXXOc,;kNMMWKl
+MMMMO:xMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMWWWMWXxc'.
+MMMMWXNMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMWXK0xc.    
+MMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMK:.        
+MMMM0oOMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM0'         
+K00Oc.dMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMMM0'         
+..    ,llllldKWMMMMMMMMMMMMMMMMMMMMW0ol:.         
+             'dKKXWMMMMMMMMMMMMMNKkkx,            
+               ..'kMMMMMMMMMMMMNl. .:ko.          
+                  lKXNWMMMMMMWXO,    .dk:.        
+                  ...lNMMMMMMO,.       :kx'       
+                     :XWWMMWW0'         .d0l.     
+                    .xNOKMN0KNl           ;OO;    
+                    cXOcOMNooN0,           .ok;   
+                   'OX:'OMNc'OWd.            .    
+                   oNx..OMNc cNK,                 
+                  ;KK, .OMNc .kWd.                
+                 .xNo  .OMNc  :XX;                
+                 cXO.  .OMNc  .xWk.               
+                'OX:   .OMNc   ,KXc               
+                oNx.   .OMNc    oWk.              
+               ,KK,    .OMNc    '0Nc              
+              .xNo     .OMNc     lNO'             
+              cXO.     .OMNc     .kNo             
+             .OXc      .OMNc      :X0'            
+             oNx.      .OMNc      .xNd.           
+            ,KK;       .OMNc       ;KK;           
+           .xNo        .OMNc       .dNx.          
+           :XO'        .OMNc        ,0X;          
+          .OXc         .OMNc         lXx.         
+          ;0d.         .OMNc         .xk,         
+           ..          .OMNc          ';.         
+   ▓██░ ██  ██▓▓█████▄ ▓█████▄ ▓█████  ███▄    █    
+   ▓██░ ██▒▓██▒▒██▀ ██▌▒██▀ ██▌▓█   ▀  ██ ▀█   █    
+   ▒██▀▀██░▒██▒░██   █▌░██   █▌▒███   ▓██  ▀█ ██▒   
+   ░▓█ ░██ ░██░░▓█▄   ▌░▓█▄   ▌▒▓█  ▄ ▓██▒  ▐▌██▒   
+   ░▓█▒░██▓░██░░▒████▓ ░▒████▓ ░▒████▒▒██░   ▓██░   
+    ▒ ░░▒░▒░▓   ▒▒▓  ▒  ▒▒▓  ▒ ░░ ▒░ ░░ ▒░   ▒ ▒    
+    ▒ ░▒░ ░ ▒ ░ ░ ▒  ▒  ░ ▒  ▒  ░ ░  ░░ ░░   ░ ▒░   
+    ░  ░░ ░ ▒ ░ ░ ░  ░  ░ ░  ░    ░      ░   ░ ░    
+    ░  ░  ░ ░     ░       ░       ░  ░         ░    
+             ░       ░                           
 \033[1;31m ===========================================================================================================
 \033[1;31m                                                                        Aurthor: CPScript 
 \033[1;31m1) \033[1;37mUnited States                \033[1;31m31) \033[1;37mMexico                \033[1;31m61) \033[1;37mMoldova
