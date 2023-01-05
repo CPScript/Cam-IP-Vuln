@@ -8,7 +8,7 @@ Hack Cameras
 
 * apt-get install git
 
-* git clone https://github.com/CPScript/Cam-Hacker
+* git clone https://github.com/CPScript/HiDDen-Cam
 
 * cd Cam-Hackers
 
