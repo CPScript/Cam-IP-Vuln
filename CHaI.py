@@ -204,14 +204,6 @@ print("Loading...")
 time.sleep(0.1)
 os.system(delet)
 time.sleep(2)
-call(["python", "CPS.py"])
-
-
-
-
-
-
-
 
 
 
