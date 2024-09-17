@@ -1,5 +1,4 @@
-Hack Cameras
-
+## Camera IP Vulnerabilities
 <h3> USE ME: </h3>
 
 `apt-get install python3`
